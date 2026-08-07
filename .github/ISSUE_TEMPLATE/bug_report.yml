@@ -1,0 +1,65 @@
+name: Bug report
+description: Report something that isn't working as expected.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug report. The more detail you
+        can give below, the faster we can reproduce and fix it.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: A clear description of the bug. What did you expect, and what actually happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Step-by-step, starting from a clean state if possible.
+      placeholder: |
+        1. …
+        2. …
+        3. See the error
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
+      description: The release version, image tag, or git commit you are running.
+      placeholder: "v1.0.0 · or commit abc1234"
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, browser, or runtime — whatever applies to this project.
+      placeholder: "macOS 15 · Chrome 130 · Docker 27"
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or console output
+      description: Paste any relevant log lines or error output.
+      render: shell
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I searched the existing issues and didn't find a duplicate.
+          required: true
