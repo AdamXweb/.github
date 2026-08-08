@@ -1,0 +1,22 @@
+name: 📋 Project status
+
+on:
+  workflow_dispatch: # Manual
+  push:
+    branches: [main]
+    paths: ['status.json']
+  schedule:
+    # Saturday 07:00 AEST (08:00 AEDT over summer) — lands before the weekend
+    # so there's time to act on it.
+    - cron: '0 21 * * 5'
+
+jobs:
+  status:
+    uses: privacykey/gh-workflows/.github/workflows/project-status.yml@v1
+    with:
+      target: profile/README.md
+      collapsed: false
+    secrets:
+      # Read-only, scoped to AdamXweb alone. Without it the drift check is
+      # skipped and says so, rather than reporting private repos as healthy.
+      status-token: ${{ secrets.STATUS_TOKEN }}

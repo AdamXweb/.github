@@ -1,0 +1,152 @@
+{
+  "owner": "AdamXweb",
+  "reviewed": "2026-08-08",
+  "repos": {
+    "DockerDance": {
+      "tier": "Active",
+      "group": "tools",
+      "public": true,
+      "listed": true,
+      "distribution": "open-source"
+    },
+    "AdamXweb": {
+      "tier": "Maintained",
+      "group": "infra",
+      "public": true,
+      "listed": false,
+      "distribution": "open-source",
+      "note": "This repo — the status hub itself."
+    },
+    "AdamXweb.github.io": {
+      "tier": "Maintained",
+      "group": "sites",
+      "public": true,
+      "listed": true,
+      "distribution": "open-source"
+    },
+    "awesome-aussie": {
+      "tier": "Reference",
+      "group": "content",
+      "public": true,
+      "listed": true,
+      "distribution": "open-source",
+      "submissions": "open"
+    },
+    "WhiteSurFirefoxThemeMacOS": {
+      "tier": "Maintained",
+      "group": "tools",
+      "public": true,
+      "listed": true,
+      "distribution": "open-source",
+      "disclosure": "none",
+      "seekingMaintainer": true,
+      "pin": {
+        "reason": "Maintained by intent: breakage from Firefox changes still gets fixed, but there is no new feature work and testing is behind. Drift would otherwise read the unanswered issue queue as Unmaintained.",
+        "reviewed": "2026-08-08"
+      },
+      "note": "614 stars — by far the most-read repo in the portfolio."
+    },
+    "Orbari": {
+      "tier": "Building",
+      "group": "apps",
+      "public": false,
+      "listed": false,
+      "distribution": "appstore-closed"
+    },
+    "TrainieTalkie": {
+      "tier": "Building",
+      "group": "apps",
+      "public": false,
+      "listed": false,
+      "distribution": "appstore-closed"
+    },
+    "gerakona": {
+      "tier": "Parked",
+      "group": "sites",
+      "public": false,
+      "listed": false,
+      "distribution": "private"
+    },
+    "s1project": {
+      "tier": "Parked",
+      "group": "archive",
+      "public": false,
+      "listed": false,
+      "distribution": "private"
+    },
+    "kostarelas.com": {
+      "tier": "Parked",
+      "group": "sites",
+      "public": true,
+      "listed": true,
+      "distribution": "open-source"
+    },
+    "HuTasker": {
+      "tier": "Unmaintained",
+      "group": "tools",
+      "public": true,
+      "listed": true,
+      "distribution": "open-source"
+    },
+    "readme-airtable": {
+      "tier": "Unmaintained",
+      "group": "tools",
+      "public": true,
+      "listed": true,
+      "distribution": "open-source"
+    },
+    "twofactorauth": {
+      "tier": "Fork",
+      "group": "archive",
+      "public": true,
+      "listed": false,
+      "distribution": "open-source",
+      "canonical": "https://github.com/2factorauth/twofactorauth"
+    },
+    "PopClip-Extensions": {
+      "tier": "Fork",
+      "group": "archive",
+      "public": true,
+      "listed": false,
+      "distribution": "open-source",
+      "canonical": "https://github.com/pilotmoon/PopClip-Extensions"
+    },
+    "FirefoxCSS-Store.github.io": {
+      "tier": "Fork",
+      "group": "archive",
+      "public": true,
+      "listed": false,
+      "distribution": "open-source",
+      "canonical": "https://github.com/FirefoxCSS-Store/FirefoxCSS-Store.github.io"
+    },
+    "visual-studio-2019-material-palenight-theme": {
+      "tier": "Fork",
+      "group": "archive",
+      "public": true,
+      "listed": false,
+      "distribution": "open-source",
+      "canonical": "https://github.com/gjactat/visual-studio-2017-palenight-theme"
+    },
+    "DoctorShoe": {
+      "tier": "Archived",
+      "group": "archive",
+      "public": true,
+      "listed": false,
+      "distribution": "open-source"
+    },
+    "FlyinEmoji": {
+      "tier": "Archived",
+      "group": "archive",
+      "public": true,
+      "listed": false,
+      "distribution": "open-source"
+    },
+    "design-system-starter": {
+      "tier": "Archived",
+      "group": "archive",
+      "public": true,
+      "listed": false,
+      "distribution": "open-source"
+    }
+  }
+}
