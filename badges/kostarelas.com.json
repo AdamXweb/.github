@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "label": "status",
+  "message": "Parked",
+  "color": "8b949e",
+  "style": "flat",
+  "cacheSeconds": 3600
+}

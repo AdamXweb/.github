@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "label": "status",
+  "message": "Unmaintained",
+  "color": "d29922",
+  "style": "flat",
+  "cacheSeconds": 3600
+}
