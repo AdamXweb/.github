@@ -9,7 +9,6 @@ looked, not when a script last ran.
 | Tier | What it means |
 | --- | --- |
 | 🟢 **Active** | I'm in this most weeks. Features are landing, so expect breaking changes between releases — read the changelog before you upgrade. I read issues and generally act on them quickly. |
-| 🚧 **Building** | Being built. Nothing is released, nothing is supported, and it can change shape or disappear without notice. Don't build on it — watch the repo if you want to know when it ships. |
 | 🛡️ **Maintained** | I'm not adding features here. It still gets security patches, dependency bumps and fixes for anything that breaks. Safe to depend on for exactly what it does today. |
 | 📦 **Parked** | Finished or paused. It does what the README says and I left it working, but nothing is watching it, so it could rot quietly. I'll answer a question. I'm not promising a fix or a release. |
 | ⚠️ **Unmaintained** | I'm not watching this one. Something it advertises may already be broken, and bugs won't be fixed on a schedule. Read it, fork it, vendor it — this says nothing about whether the code is any good. |

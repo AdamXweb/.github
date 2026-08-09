@@ -46,34 +46,6 @@
       },
       "note": "614 stars — by far the most-read repo in the portfolio."
     },
-    "Orbari": {
-      "tier": "Building",
-      "group": "apps",
-      "public": false,
-      "listed": false,
-      "distribution": "appstore-closed"
-    },
-    "TrainieTalkie": {
-      "tier": "Building",
-      "group": "apps",
-      "public": false,
-      "listed": false,
-      "distribution": "appstore-closed"
-    },
-    "gerakona": {
-      "tier": "Parked",
-      "group": "sites",
-      "public": false,
-      "listed": false,
-      "distribution": "private"
-    },
-    "s1project": {
-      "tier": "Parked",
-      "group": "archive",
-      "public": false,
-      "listed": false,
-      "distribution": "private"
-    },
     "kostarelas.com": {
       "tier": "Parked",
       "group": "sites",
